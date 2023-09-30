@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Google Clone',
       theme: ThemeData.dark().copyWith(scaffoldBackgroundColor: backgroundColor),
-      home: ResponsiveLayoutScreen(
+      home: const ResponsiveLayoutScreen(
         mobileScreenLayout: MobileScreenLayout(),
         webScreenlayout: WebScreenLayout(),
       ),

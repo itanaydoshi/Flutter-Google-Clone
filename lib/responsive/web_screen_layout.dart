@@ -37,9 +37,7 @@ class WebScreenLayout extends StatelessWidget {
               ),
             ),
           ),
-          const SizedBox(
-            width: 10,
-          ),
+          const SizedBox(width: 10),
           IconButton(
             onPressed: () {},
             icon: SvgPicture.asset(
@@ -47,9 +45,7 @@ class WebScreenLayout extends StatelessWidget {
               color: primaryColor,
             ),
           ),
-          const SizedBox(
-            width: 10,
-          ),
+          const SizedBox(width: 10),
           Padding(
             padding:
                 const EdgeInsets.symmetric(vertical: 10).copyWith(right: 10),
@@ -85,7 +81,7 @@ class WebScreenLayout extends StatelessWidget {
                       TranslationButtons(),
                     ],
                   ),
-                  const WebFooter(),
+                  WebFooter(),
                 ],
               ),
             ),

@@ -5,7 +5,6 @@ import 'package:google_clone/widgets/Mobile/mobile_footer.dart';
 import 'package:google_clone/widgets/search.dart';
 import 'package:google_clone/widgets/translation_buttons.dart';
 import 'package:google_clone/widgets/web/search_buttons.dart';
-import 'package:google_clone/widgets/web/web_footer.dart';
 
 class MobileScreenLayout extends StatelessWidget {
   const MobileScreenLayout({Key? key}) : super(key: key);

@@ -6,19 +6,17 @@ class SearchButtons extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return const Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             SearchButton(title: 'Google Search'),
-            SizedBox(
-              width: 10,
-            ),
+            SizedBox(width: 10),
             SearchButton(title: 'I\'m feeling Lucky'),
           ],
-        )
+        ),
       ],
     );
   }
