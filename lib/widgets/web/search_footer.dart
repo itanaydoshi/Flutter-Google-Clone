@@ -11,8 +11,8 @@ class SearchFooter extends StatelessWidget {
       children: [
         Container(
           color: footerColor,
-          padding: const EdgeInsets.symmetric(
-            horizontal: 150,
+          padding: EdgeInsets.symmetric(
+            horizontal: size.width <= 768 ? 10 :150,
             vertical: 15,
           ),
           child: Row(
@@ -24,9 +24,7 @@ class SearchFooter extends StatelessWidget {
                   fontSize: 15,
                 ),
               ),
-              SizedBox(
-                width: 10,
-              ),
+              const SizedBox(width: 10),
               Container(
                 height: 20,
                 width: 0.5,

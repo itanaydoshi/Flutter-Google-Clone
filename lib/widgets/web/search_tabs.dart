@@ -18,31 +18,26 @@ class SearchTabs extends StatelessWidget {
           ),
           SizedBox(width: 20),
           SearchTab(
-            
             text: 'Images',
             icon: Icons.image,
           ),
           SizedBox(width: 20),
           SearchTab(
-            
             text: 'Map',
             icon: Icons.map,
           ),
           SizedBox(width: 20),
           SearchTab(
-            
             text: 'News',
             icon: Icons.article,
           ),
           SizedBox(width: 20),
           SearchTab(
-            
             text: 'Shopping',
             icon: Icons.shop,
           ),
           SizedBox(width: 20),
           SearchTab(
-            
             text: 'More',
             icon: Icons.more_vert,
           ),
